@@ -1,3 +1,4 @@
+<h3 align="center">COLABORE DBC</h3>
 Projeto Colabore DBC site de campanhas colaborativas.
 
 <a href="https://colabore-dbc-eight.vercel.app/" target="_blank">
@@ -43,7 +44,11 @@ O site pode ser acessado em: https://colabore-dbc-eight.vercel.app/ <br>
   <li>React Router</li>
 </ul>
 
+<h3 align="center">Conheça nossa equipe</h3>
+
 <img src="https://user-images.githubusercontent.com/103120313/186299651-c6c84182-f892-4baf-96f4-b919a703b2d0.jpg"></img>
+
+<h3 align="center">Saiba mais</h3>
 
 <img src="https://user-images.githubusercontent.com/103120313/186299834-138746b6-28db-436e-b5d6-3d1ff916a8de.jpg"></img>
 
