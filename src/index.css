@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F7F8FC
+}
+
+body, input, textarea, button, select, option {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #215ba7;
+}
+
+button:disabled:hover {
+  cursor: not-allowed !important;
+  background: #2A69BB !important;
+  color: #FFFFFF !important;
+}
+
+.password-strength-meter {
+  margin-top: 0.5rem;
+  height: 2rem !important;
+}
+.password-strength-meter-progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+}
+.password-strength-meter-progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 3px;
+}
+.password-strength-meter-label {
+  margin-top: -1.8rem;
+  font-size:  1rem;
+}
+.password-strength-meter-progress::-webkit-progress-value {
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+.password__label{
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #9FA2B4;
+  margin-top: 3px;
+}
+.strength-Fraca::-webkit-progress-value {
+  background-color: #ff0400;
+}
+.strength-Razoável::-webkit-progress-value {
+  background-color: #ffcc00;
+}
+.strength-Boa::-webkit-progress-value {
+  background-color: #00b3ff;
+}
+.strength-Forte::-webkit-progress-value {
+  background-color: #03b11a;
+}
+.strength-Fraca span {
+  font-weight: bold;
+  color: #ff0400;
+}
+.strength-Razoável span {
+  font-weight: bold;
+  color: #ffcc00;
+}
+.strength-Boa span {
+  font-weight: bold;
+  color: #00b3ff;
+}
+.strength-Forte span {
+  font-weight: bold;
+  color: #03b11a;
+}
+
+.modalBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.closeBtn {
+  margin-right: 20px;
+  align-self: flex-end;
+}
+
+.btnsModal button:nth-child(1):hover {
+  background-color: #dd1717;
+  border: 1px solid #dd1717;
+}
+
+.btnsModal {
+  display: flex;
+  padding: 35px 0;
+  gap: 100px;
+}
+
