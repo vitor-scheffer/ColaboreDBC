@@ -44,7 +44,7 @@ O site pode ser acessado em: https://colabore-dbc-eight.vercel.app/ <br>
   <li>React Router</li>
 </ul>
 
-<h3 align="center">Conheça nossa equipe</h3>
+<h3 align="center">Conheça a equipe do projeto</h3>
 
 <img src="https://user-images.githubusercontent.com/103120313/186299651-c6c84182-f892-4baf-96f4-b919a703b2d0.jpg"></img>
 
