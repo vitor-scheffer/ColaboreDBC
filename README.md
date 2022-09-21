@@ -1,5 +1,5 @@
 <h3 align="center">COLABORE DBC</h3>
-Projeto final do programa Vem Ser da DBC Company o Colabore DBC se trata de um site de campanhas colaborativas.
+Projeto final do programa Vem Ser da DBC Company, o Colabore DBC se trata de um site de campanhas colaborativas.
 
 <a href="https://colabore-dbc-eight.vercel.app/" target="_blank">
   <img src="https://user-images.githubusercontent.com/103120313/186299403-7aa7b6f3-a0e1-4d8c-9008-70f5a5196088.jpg"></img>
